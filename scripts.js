@@ -1,4 +1,4 @@
-<script>
+
 function tryAgain(e) 
   {
     setTimeout(reloadImg,1, e);
@@ -241,5 +241,3 @@ var queryString = "?email_suscribe=" + email;
 	xmlhttp.open("GET", "includes/suscripcion.asp" + queryString, true);
     xmlhttp.send();
 }
-</script>
-	
