@@ -8,7 +8,7 @@ function tryAgain(e)
   {
     var source = e.src;
 
-    e.src = '/images/kekul-avatar.webp';
+    e.src = 'https://res.cloudinary.com/ddcdyhfjc/image/upload/v1628401396/KEKUL/kekul-avatar.webp';
 	
   }
   
@@ -241,3 +241,5 @@ var queryString = "?email_suscribe=" + email;
 	xmlhttp.open("GET", "includes/suscripcion.asp" + queryString, true);
     xmlhttp.send();
 }
+
+	
