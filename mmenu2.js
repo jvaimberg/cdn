@@ -13,7 +13,7 @@ new Mmenu(
 					open: true, 
 					},
                     iconbar: {
-                        use: '(min-width: 450px)',
+                        use: '(min-width: 650px)',
                         top: [
                             '<a href="#/"><span class="fa fa-home"></span></a>',
                         ],
